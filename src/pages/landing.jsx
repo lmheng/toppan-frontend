@@ -18,7 +18,7 @@ export const Landing = () => {
         })
         .catch((error) => {
           setBookList([]);
-          setError(error["response"]["data"]["message"]);
+          setError("No data found");
         });
     }
   }, [country]);
