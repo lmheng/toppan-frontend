@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Assumptions made
+
+1. There is no loading screen shown here, so I have added a landing screen and loading screen to prevent showing errors when attempting to query the api.
+2. The error message text "No data found" will show regardless of error message sent from the backend ("Invalid params" / "No result") as this was requested in the frontend assignment.
+
 ## Proposed structure
 src<br/>
 ├──assets<br/>
@@ -25,11 +30,6 @@ App.js<br/>
 | stories  | A sample folder for storybookjs |
 | styles  | Reusable or global styles (CSS) |
 | utils  | Reusable utility functions |
-
-## Assumptions made
-
-1. There is no loading screen shown here, so I have added a landing screen and loading screen to prevent showing errors when attempting to query the api.
-2. The error message text "No data found" will show regardless of error message sent from the backend ("Invalid params" / "No result") as this was requested in the frontend assignment.
 
 ## Available Scripts
 
