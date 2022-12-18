@@ -40,7 +40,7 @@ export const Landing = () => {
       />
       <div className="wrapper">
         {bookList.length > 0 && !error ? (
-          <div className="container">
+          <div className="container" id="container">
             <Accordion accordionList={bookList} id="book-item-" />
           </div>
         ) : (
