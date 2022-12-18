@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"),
+    url("../assets/fonts/Inter-Regular.ttf") format("truetype");
+}
+
+:root {
+  --primary: #f6ecec;
+  --secondary: #d46767;
+  --list_item: #f4cfcf;
+  --text: #000000;
+  --white: #ffffff;
+  --grey: #ccc;
+
+  --font_family_primary: "Inter";
+}

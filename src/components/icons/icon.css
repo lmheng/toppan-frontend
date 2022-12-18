@@ -1,0 +1,6 @@
+@import url("../../styles/constants.css");
+
+.clickable {
+  display: inline-block;
+  cursor: pointer;
+}

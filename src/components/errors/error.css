@@ -1,0 +1,13 @@
+@import url("../../styles/constants.css");
+
+h6 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.error-boundary {
+  border: 1px solid var(--text);
+  text-align: center;
+  padding: 24px 190px 24px 190px;
+  max-width: 500px;
+}

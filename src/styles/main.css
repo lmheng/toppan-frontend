@@ -1,0 +1,82 @@
+@import url("constants.css");
+/*------------------------------------------------------------------
+[Main Stylesheet]
+Project:    AgileAP
+Version:    1.0.0
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+    1. Default tags
+    2. Landing styles
+*/
+
+/* #region Default tags*/
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font_family_primary), sans-serif;
+  background-color: var(--white);
+}
+
+h1,
+h2,
+h6,
+p {
+  font-family: var(--font_family_primary);
+  color: var(--text);
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+/* #endregion */
+
+/* #region Landing styles*/
+.wrapper {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid var(--text);
+  background: var(--white);
+  box-sizing: border-box;
+  max-width: 500px;
+  max-height: 95vh;
+  padding: 10px;
+  overflow: auto;
+}
+
+/* #endregion */
