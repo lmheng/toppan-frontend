@@ -9,6 +9,7 @@ export const IconType = {
 export const Icon = ({ type, colour, size, onClick }) => {
   const translate = `scale(${size / 24})`;
 
+  //Icon component is made to be reusable, thus the redundate switch method below. If more icons need to be added, they just need to be mounted into this component to be used.
   const getIconType = () => {
     switch (type) {
       case IconType.vector:
